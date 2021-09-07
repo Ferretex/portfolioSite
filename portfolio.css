@@ -1,0 +1,113 @@
+h1 {
+    background-color: mistyrose;
+    color: rgb(100,35,35);
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-family: fantasy;
+    font-size: 500%;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+body {
+    background-color: rgb(45,35,35);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#subHeading {
+    font-size: 30%;
+    color: coral;
+    text-transform: none;
+    line-height: 10px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#desc {
+    font-size: 150%;
+    color: indianred;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#galDesc {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navigate {
+    background: rgb(100,35,35);
+    font-size: 120%;
+    color: indianred;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-style: double;
+}
+
+.navigate:hover {
+    background-color: indianred;
+    color: white;
+}
+
+.minilink {
+    background: rgb(100,35,35);
+    color: indianred;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    border-style: double;
+}
+
+.mainImage {
+    float: right;
+    margin-left: 40%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    height: 300px; 
+    margin: 2%;
+}
+
+.video {
+    margin: 2%;
+}
+
+.photo:hover{
+    opacity: 0.75;
+}
+
+#contact {
+    color: mistyrose;
+    font-family: sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.me {
+    text-align: center;
+}
