@@ -77,6 +77,11 @@ body {
     border-style: double;
 }
 
+.minilink:hover {
+    background-color: indianred;
+    color: white;
+}
+
 .mainImage {
     float: right;
     margin-left: 40%;
